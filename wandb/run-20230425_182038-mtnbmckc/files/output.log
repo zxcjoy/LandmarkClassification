@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 99, in <module>
+    train(cfg, i, dataframe)
+  File "train.py", line 72, in train
+    logger=WandbLogger("lightning_logs", "effnet-b0", project = "effnet-b0"),
+NameError: name 'WandbLogger' is not defined

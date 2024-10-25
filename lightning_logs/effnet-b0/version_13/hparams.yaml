@@ -1,0 +1,1549 @@
+batch_size: 16
+coarse_mapping:
+  0: Pagodas
+  1: NeoClassical
+  2: Pyramids
+  3: Modern
+  4: Mughal
+  5: Gothic
+coarse_num_classes: 6
+dataframe: !!python/object:pandas.core.frame.DataFrame
+  _flags:
+    allows_duplicate_labels: true
+  _metadata: []
+  _mgr: !!python/object/apply:pandas.core.internals.managers.BlockManager
+  - !!python/tuple
+    - !!python/object/apply:pandas._libs.internals._unpickle_block
+      - !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - &id001 !!python/name:numpy.ndarray ''
+        - !!python/tuple
+          - 0
+        - !!binary |
+          Yg==
+        state: !!python/tuple
+        - 1
+        - !!python/tuple
+          - 3
+          - 420
+        - &id002 !!python/object/apply:numpy.dtype
+          args:
+          - O8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - '|'
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 63
+        - false
+        - - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda18.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda1.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda0.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda19.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda15.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda7.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda12.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda6.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda5.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda9.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda8.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda4.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda16.jpeg
+          - data/Landmarks-v1_0/Pagodas/TianningTemplePagoda/TianningTemplePagoda17.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda12.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda13.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda6.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda14.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda1.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda19.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda0.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda15.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda16.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda3.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda5.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda10.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda9.jpeg
+          - data/Landmarks-v1_0/Pagodas/ThienMuPagoda/ThienMuPagoda11.jpeg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-14.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-15.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-17.JPG
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-12.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-13.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-8.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-11.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-10.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-6.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-4.JPG
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-0.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-1.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-19.jpg
+          - data/Landmarks-v1_0/Pagodas/GiantWildGoosePagoda/GiantWildGoosePagoda-2.jpg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda1.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda16.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda0.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda11.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda7.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda13.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda5.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda4.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda12.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda19.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda3.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda15.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda14.jpeg
+          - data/Landmarks-v1_0/Pagodas/ShwedagonPagoda/ShwedagonPagoda18.jpeg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-3.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-2.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-1.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-18.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-4.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-19.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-6.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-17.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-9.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-15.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-8.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-11.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-12.jpg
+          - data/Landmarks-v1_0/Pagodas/FogongTemplePagoda/FogongTemplePagoda-13.jpg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_14.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_13.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_7.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_6.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_19.avif
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_12.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_5.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_1.webp
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_4.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_10.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_17.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_16.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_20.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Buckingham Palace/Buckingham Palace_2.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 20.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 4.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 18.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 9.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 6.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 5.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 8.webp
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 1.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 3.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 14.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 15.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 17.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 11.jpg
+          - data/Landmarks-v1_0/NeoClassical/Concertgebouw/Concertgebouw - 10.jpg
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_17.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_7.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_2.webp"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_6.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_16.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_1.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_4.webp"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_10.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_13.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_12.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_15.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_9.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_5.jpeg"
+          - "data/Landmarks-v1_0/NeoClassical/Panth\u201Aon/Panth\u201Aon_8.jpeg"
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            15.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            8.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            9.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            10.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            13.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            12.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            17.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            3.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            1.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            5.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            7.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            6.jpg
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            20.avif
+          - data/Landmarks-v1_0/NeoClassical/Academy of Athens/Academy of Athens -
+            14.webp
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 13.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 10.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 14.JPG
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 16.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 17.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 1.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 2.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 6.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 5.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 4.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 9.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 8.jpg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 18.jpeg
+          - data/Landmarks-v1_0/NeoClassical/Ripon Building/Ripon Building - 15.jpeg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-7.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-6.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-3.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-1.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-11.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-10.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-12.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-13.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-17.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-16.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-15.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-20.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Giza/Pyramid of Giza-8.JPG
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-6.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-12.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-5.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-11.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-4.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-15.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-1.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-3.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-16.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-2.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-19.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-18.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-9.jpg
+          - data/Landmarks-v1_0/Pyramids/Pyramid of Djoser/Pyramid of Djoser-8.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-9.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-18.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-19.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-17.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-16.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-14.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-11.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-10.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-12.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-13.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-7.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-1.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-3.jpg
+          - data/Landmarks-v1_0/Pyramids/Santa Cecilia Acatitlan Pyramid/Santa Cecilia
+            Acatitlan Pyramid-2.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-18.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-9.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-20.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-2.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-11.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-10.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-12.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-1.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-13.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-5.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-16.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-7.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-14.jpg
+          - data/Landmarks-v1_0/Pyramids/El Castillo, Chichen Itza/El Castillo, Chichen
+            Itza-15.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-13.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-12.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-10.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-11.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-15.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-16.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-17.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-5.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-4.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-7.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-3.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-1.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-8.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-19.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-21.jpg
+          - data/Landmarks-v1_0/Pyramids/Louvre Pyramid/Louvre Pyramid-22.jpg
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-11.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-6.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-17.jpg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-16.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-20.jpg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-14.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-8.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-9.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-19.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-7.jpg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-12.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-2.jpeg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-1.jpg"
+          - "data/Landmarks-v1_0/Modern/Hallgr\xA1mskirkja/Hallgr\xA1mskirkja-3.jpeg"
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-20.jpg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-18.jpg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-12.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-5.jpg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-19.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-15.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-3.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-14.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-17.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-1.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-8.jpg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-11.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-10.jpeg
+          - data/Landmarks-v1_0/Modern/Chrysler Building/Chrysler Building-7.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-10.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-2.jpg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-3.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-11.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-4.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-16.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-8.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-9.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-19.jpg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-17.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-6.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-14.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-12.jpeg
+          - data/Landmarks-v1_0/Modern/CCTV Headquarters/CCTV Headquarters-13.jpeg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-3.jpeg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-14.jpeg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-4.jpg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-18.jpeg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-7.jpg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-2.jpeg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-5.jpeg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-8.jpeg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-10.jpg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-13.jpg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-12.jpg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-17.jpg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-15.jpg
+          - data/Landmarks-v1_0/Modern/eiffel/eiffel-9.jpg
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-2.jpg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-12.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-19.jpg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-5.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-8.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-18.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-16.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-17.jpg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-15.jpg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-20.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-11.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-1.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-10.jpeg"
+          - "data/Landmarks-v1_0/Modern/Cathedral of Bras\u201Dlia/Cathedral of Bras\u201D\
+            lia-9.jpg"
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 8.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 6.webp
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 20.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 12.webp
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 9.jpeg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 18.jpeg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 15.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 11.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 4.png
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 5.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 7.png
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 3.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 1.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of I_timad-ud-Daulah/Tomb of I_timad-ud-Daulah
+            - 16.webp
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 10.jpg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 12.jpg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 7.jpeg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 11.webp
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 17.jpg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 16.jpg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 15.jpg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 4.webp
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 8.webp
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 18.webp
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 19.jpg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 2.jpg
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 1.webp
+          - data/Landmarks-v1_0/Mughal/Taj Mahal/Taj Mahal - 5.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 10.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 12.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 16.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 17.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 18.webp
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 14.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 13.webp
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 8.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 7.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 6.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 4.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 2.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 3.jpg
+          - data/Landmarks-v1_0/Mughal/Tomb of Akbar/Tomb of Akbar - 20.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 20.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 9.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 19.webp
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 6.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 7.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 5.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 4.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 16.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 17.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 15.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 11.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 13.jpg
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 2.webp
+          - data/Landmarks-v1_0/Mughal/Jama Masjid/Jama Masjid - 12.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 14.avif
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 12.jpeg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 10.webp
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 13.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 7.jpeg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 16.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 18.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 20.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 2.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 4.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 5.jpg
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 15.webp
+          - data/Landmarks-v1_0/Mughal/Bibi Ka Maqbara/Bibi Ka Maqbara - 6.jpg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral0.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral1.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral12.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral19.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral15.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral14.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral7.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral4.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral8.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral17.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral9.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral5.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral11.jpeg
+          - data/Landmarks-v1_0/Gothic/St.VitusCathedral/St.VitusCathedral10.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral2.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral10.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral16.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral4.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral9.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral17.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral6.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral18.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral19.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral7.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral0.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral12.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral13.jpeg
+          - data/Landmarks-v1_0/Gothic/MilanCathedral/MilanCathedral1.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral0.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral17.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral7.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral6.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral16.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral5.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral15.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral9.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral19.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral8.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral4.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral13.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral12.jpeg
+          - data/Landmarks-v1_0/Gothic/ChartresCathedral/ChartresCathedral2.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral0.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral1.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral12.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral15.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral6.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral19.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral7.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral14.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral17.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral8.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral16.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral5.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral2.jpeg
+          - data/Landmarks-v1_0/Gothic/CologneCathedral/CologneCathedral10.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis18.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis6.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis7.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis15.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis19.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis12.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis13.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis2.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis10.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis3.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis8.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis4.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis16.jpeg
+          - data/Landmarks-v1_0/Gothic/Notre-DameCathedral/NotreDameDeParis9.jpeg
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - Pagodas
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - NeoClassical
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Pyramids
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Modern
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Mughal
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - Gothic
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - TianningTemplePagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - ThienMuPagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - GiantWildGoosePagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - ShwedagonPagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - FogongTemplePagoda
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Buckingham Palace
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - Concertgebouw
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - "Panth\u201Aon"
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Academy of Athens
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Ripon Building
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Giza
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Pyramid of Djoser
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - Santa Cecilia Acatitlan Pyramid
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - El Castillo, Chichen Itza
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - Louvre Pyramid
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - "Hallgr\xA1mskirkja"
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - Chrysler Building
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - CCTV Headquarters
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - eiffel
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - "Cathedral of Bras\u201Dlia"
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Tomb of I_timad-ud-Daulah
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Taj Mahal
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Tomb of Akbar
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Jama Masjid
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - Bibi Ka Maqbara
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - St.VitusCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - MilanCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - ChartresCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - CologneCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+          - Notre-DameCathedral
+      - !!python/object/apply:builtins.slice
+        - 0
+        - 3
+        - 1
+      - 2
+    - !!python/object/apply:pandas._libs.internals._unpickle_block
+      - !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id001
+        - !!python/tuple
+          - 0
+        - !!binary |
+          Yg==
+        state: !!python/tuple
+        - 1
+        - !!python/tuple
+          - 1
+          - 420
+        - !!python/object/apply:numpy.dtype
+          args:
+          - f8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - false
+        - !!binary |
+          AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAPA/AAAAAAAAAAAA
+          AAAAAAAAQAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAA
+          AAAAABBAAAAAAAAAAEAAAAAAAAAQQAAAAAAAAABAAAAAAAAAEEAAAAAAAAAIQAAAAAAAAPA/AAAA
+          AAAAAEAAAAAAAAAIQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAABAAAAAAAAACEAAAAAA
+          AAAIQAAAAAAAAPA/AAAAAAAAEEAAAAAAAAAAQAAAAAAAAPA/AAAAAAAAAEAAAAAAAAAAAAAAAAAA
+          AAhAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAABAAAAAAAAA
+          EEAAAAAAAAAQQAAAAAAAABBAAAAAAAAA8D8AAAAAAADwPwAAAAAAAABAAAAAAAAA8D8AAAAAAAAI
+          QAAAAAAAAPA/AAAAAAAAEEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQQAAAAAAAABBA
+          AAAAAAAAAEAAAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAhAAAAAAAAA8D8A
+          AAAAAAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAAAQQAAAAAAAAPA/AAAAAAAACEAAAAAAAADwPwAA
+          AAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQQAAAAAAAABBAAAAA
+          AAAAEEAAAAAAAAAAQAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA8D8AAAAA
+          AAAQQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAIQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAIQAAAAAAA
+          APA/AAAAAAAA8D8AAAAAAAAQQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAhAAAAAAAAA
+          AEAAAAAAAADwPwAAAAAAAPA/AAAAAAAAEEAAAAAAAAAAAAAAAAAAAAhAAAAAAAAACEAAAAAAAAAI
+          QAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAIQAAAAAAAAPA/
+          AAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAAACEAAAAAAAAAIQAAAAAAAABBAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAQQAAAAAAAABBAAAAAAAAAAEAAAAAAAAAAQAAA
+          AAAAAAhAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAA
+          AAAACEAAAAAAAAAAQAAAAAAAABBAAAAAAAAA8D8AAAAAAAAIQAAAAAAAAPA/AAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAIQAAAAAAAAABAAAAAAAAA8D8AAAAAAAAIQAAAAAAA
+          AABAAAAAAAAAEEAAAAAAAADwPwAAAAAAABBAAAAAAAAACEAAAAAAAAAQQAAAAAAAAABAAAAAAAAA
+          8D8AAAAAAAAAAAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAAAAA
+          QAAAAAAAAPA/AAAAAAAA8D8AAAAAAAAIQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAQQAAAAAAAABBA
+          AAAAAAAAEEAAAAAAAADwPwAAAAAAABBAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAACEAA
+          AAAAAAAIQAAAAAAAAAAAAAAAAAAAEEAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAA
+          AAAAAPA/AAAAAAAACEAAAAAAAAAAAAAAAAAAAABAAAAAAAAA8D8AAAAAAAAIQAAAAAAAAAhAAAAA
+          AAAACEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAACEAAAAAAAAAIQAAAAAAAAABAAAAAAAAAAAAAAAAA
+          AADwPwAAAAAAAPA/AAAAAAAACEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA
+          AABAAAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAQAAAAAAAABBAAAAAAAAA
+          AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAIQAAAAAAAAAAAAAAAAAAACEAAAAAAAADw
+          PwAAAAAAABBAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAPA/AAAAAAAAAEAAAAAAAAAQQAAAAAAAAABA
+          AAAAAAAAEEAAAAAAAAAAAAAAAAAAABBAAAAAAAAACEAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAEAA
+          AAAAAAAQQAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAEAAAAAAAADwPwAA
+          AAAAAABAAAAAAAAA8D8AAAAAAADwPwAAAAAAABBAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAhAAAAA
+          AAAAAAAAAAAAAAAQQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAQQAAAAAAAAPA/AAAAAAAA8D8AAAAA
+          AAAAQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAAAAAAAAAA
+          AABAAAAAAAAA8D8AAAAAAAAIQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAABAAAAAAAAA
+          CEAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAEAAAAAAAAAQQAAAAAAAAPA/AAAAAAAACEAAAAAAAAAI
+          QAAAAAAAABBAAAAAAAAAAEAAAAAAAAAIQAAAAAAAABBAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAhAAAAAAAAAEEAAAAAAAADwPwAAAAAAAABAAAAAAAAACEAA
+          AAAAAAAAQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAEAAAAAAAAAAAAAA
+          AAAAAPA/AAAAAAAAAAAAAAAAAAAAQAAAAAAAABBAAAAAAAAACEAAAAAAAAAQQAAAAAAAAAhAAAAA
+          AAAACEAAAAAAAAAQQAAAAAAAAPA/AAAAAAAAEEAAAAAAAAAAQAAAAAAAAAhAAAAAAAAAAAAAAAAA
+          AAAQQAAAAAAAAABAAAAAAAAAEEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAAQAAAAAAA
+          APA/AAAAAAAACEAAAAAAAAAIQAAAAAAAABBAAAAAAAAAAEAAAAAAAAAIQAAAAAAAAPA/AAAAAAAA
+          AAAAAAAAAAAQQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAI
+          QAAAAAAAAPA/AAAAAAAA8D8AAAAAAAAQQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQQAAAAAAAAABA
+          AAAAAAAAEEAAAAAAAADwPwAAAAAAAABAAAAAAAAACEAAAAAAAADwPwAAAAAAAPA/AAAAAAAAAEAA
+          AAAAAAAAQAAAAAAAABBAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAIQAAA
+          AAAAAPA/AAAAAAAACEAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAIQAAAAAAAABBAAAAA
+          AAAACEAAAAAAAAAAQAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAhAAAAAAAAACEAAAAAAAAAQQAAAAAAAABBAAAAAAAAACEAAAAAAAADwPwAAAAAA
+          ABBAAAAAAAAAAEAAAAAAAAAAQAAAAAAAABBAAAAAAAAA8D8AAAAAAADwPwAAAAAAABBAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAEAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAEEAAAAAAAADwPwAAAAAAAABAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAABA
+          AAAAAAAAAEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAA8D8A
+          AAAAAADwPwAAAAAAABBAAAAAAAAAAEAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAA
+          AAAAAAhAAAAAAAAAAEAAAAAAAADwPwAAAAAAAAhAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAAhA
+      - !!python/object/apply:builtins.slice
+        - 3
+        - 4
+        - 1
+      - 2
+  - - !!python/object/apply:pandas.core.indexes.base._new_Index
+      - !!python/name:pandas.core.indexes.base.Index ''
+      - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id001
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 4
+          - *id002
+          - false
+          - - image_path
+            - style
+            - landmark
+            - fold
+        name: null
+    - !!python/object/apply:pandas.core.indexes.base._new_Index
+      - !!python/name:pandas.core.indexes.range.RangeIndex ''
+      - name: null
+        start: 0
+        step: 1
+        stop: 420
+  _typ: dataframe
+  attrs: {}
+drop_rate: 0
+fine_mapping:
+  0: TianningTemplePagoda
+  1: ThienMuPagoda
+  2: GiantWildGoosePagoda
+  3: ShwedagonPagoda
+  4: FogongTemplePagoda
+  5: Buckingham Palace
+  6: Concertgebouw
+  7: "Panth\u201Aon"
+  8: Academy of Athens
+  9: Ripon Building
+  10: Pyramid of Giza
+  11: Pyramid of Djoser
+  12: Santa Cecilia Acatitlan Pyramid
+  13: El Castillo, Chichen Itza
+  14: Louvre Pyramid
+  15: "Hallgr\xA1mskirkja"
+  16: Chrysler Building
+  17: CCTV Headquarters
+  18: eiffel
+  19: "Cathedral of Bras\u201Dlia"
+  20: Tomb of I_timad-ud-Daulah
+  21: Taj Mahal
+  22: Tomb of Akbar
+  23: Jama Masjid
+  24: Bibi Ka Maqbara
+  25: St.VitusCathedral
+  26: MilanCathedral
+  27: ChartresCathedral
+  28: CologneCathedral
+  29: Notre-DameCathedral
+fine_num_classes: 30
+fold: 0
+gamma: 0.5
+image_size: 256
+learning_rate: 0.001
+mean: !!python/tuple
+- 0.4778
+- 0.4962
+- 0.5139
+num_workers: 4
+pretrained: true
+std: !!python/tuple
+- 0.264
+- 0.2545
+- 0.2976
+step_size: 10
+transform: true
+weight_decay: 1.0e-05

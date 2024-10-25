@@ -1,0 +1,34 @@
+{
+    "os": "macOS-12.5-arm64-arm-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-04-26T01:20:39.363801",
+    "startedAt": "2023-04-26T01:20:38.793748",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": null,
+        "commit": "d5cfbcd9e35a63e35a4bb12819847fbe1f9f5816"
+    },
+    "email": "zis053@ucsd.edu",
+    "root": "/Users/szx/Desktop/All/USC/DSCI 552/Final Project/shen2",
+    "host": "MacBook-Air.attlocal.net",
+    "username": "szx",
+    "executable": "/opt/homebrew/anaconda3/envs/py38/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 139.4044075012207
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
